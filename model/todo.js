@@ -8,6 +8,5 @@ const todoSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-
 const Todo = new mongoose.model("todo", todoSchema);
 module.exports = { Todo };
